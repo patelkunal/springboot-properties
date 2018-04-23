@@ -11,7 +11,7 @@ version = ''
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
-mainClassName = 'org.coderearth.springbootkitchen.MainApp'
+mainClassName = 'org.coderearth.springbootprops.MainApp'
 
 dependencies {
     compile 'com.google.guava:guava:23.0'
@@ -39,6 +39,6 @@ clean.doLast {
 }
 
 bootJar {
-	mainClassName = 'org.coderearth.springbootkitchen.MainApp'
+	mainClassName = 'org.coderearth.springbootprops.MainApp'
 }
 
