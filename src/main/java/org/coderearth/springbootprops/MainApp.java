@@ -12,6 +12,7 @@ public class MainApp {
     public static void main(String[] args) {
         new SpringApplicationBuilder(MainApp.class)
                 .bannerMode(Banner.Mode.OFF)
+                .logStartupInfo(false)
                 .registerShutdownHook(true)
                 .build()
                 .run(args)

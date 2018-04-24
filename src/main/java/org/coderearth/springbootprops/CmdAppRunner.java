@@ -23,9 +23,9 @@ public class CmdAppRunner implements CommandLineRunner {
 
     @Override
     public void run(final String... args) {
-        LOGGER.debug("Starting up CmdAppRunner !!");
-        LOGGER.info("app.full.refresh ==> {}", refresh);
-        LOGGER.info("app.fallback.since ==> {}", fallbackSince);
-        LOGGER.debug("Shutting down CmdAppRunner !!");
+        LOGGER.trace("Starting up CmdAppRunner !!");
+        LOGGER.debug("app.full.refresh ==> {}", refresh);
+        LOGGER.debug("app.fallback.since ==> {}", fallbackSince);
+        LOGGER.trace("Shutting down CmdAppRunner !!");
     }
 }
